@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import { FiCode, FiCodesandbox, FiZap, FiLayout, FiBox, FiWind, FiServer } from "react-icons/fa";
 import {skills, webSkills, otherSkills} from '../../Data/data'
 import { useState, useEffect } from "react";
 import { SkillsCard } from "../SkillsCard";

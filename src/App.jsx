@@ -11,9 +11,6 @@ function App() {
 
   return (
   <>
-
-     {/* <h1 style={{ color: "red" }}>APP WORKS</h1> */}
-
       <Navbar />
       <Hero />
       <Skills />
