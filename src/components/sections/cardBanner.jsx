@@ -20,7 +20,7 @@ const theSkills = [...skills, ...skills];
                 0{(i % skills.length) + 1}
               </span>
             </div>
-            <h3 className="fw-bolder  mb-1" style={{ fontSize: "1.15rem" }}>{element.title}</h3>
+            <h3 className="fw-bolder text-end mb-1" style={{ fontSize: "1.15rem" }}>{element.title}</h3>
             <p className="mb-0 text-end" style={{ fontSize: "0.8rem" }}>{element.note}</p>
           </article>
         ))}
