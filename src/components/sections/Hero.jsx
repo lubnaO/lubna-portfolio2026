@@ -19,19 +19,19 @@ export default function Hero() {
           <span className="d-none d-sm-block">01 </span>
         </motion.div>
 
-        <motion.div initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:0.3}}}  className="text-center mx-auto" style={{ maxWidth: "72rem" }}>
+        <motion.div initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:0.8}}}  className="text-center mx-auto" style={{ maxWidth: "72rem" }}>
         <div className="d-flex flex-col md:flex-row  md:items-center md:justify-center">
        <p className="" style={{ fontFamily: "var(--font-display)", fontSize: "clamp(2.15rem, 7.4vw, 3rem)", fontWeight: 800, lineHeight: 0.82, letterSpacing: "-0.025em", color: "var(--accent)", textTransform: "uppercase" }}>
            مطورة واجهات 
           </p>
-          <span className="m-0 md:p-3 font-bold text-5xl"></span>
+          <span className="hidden md:block d-md- m-0 md:p-3 font-bold text-4xl  text-dark-muted">-</span>
           <p className=" " style={{ fontFamily: "var(--font-display)", fontSize: "clamp(2.15rem, 7.4vw, 3rem)", fontWeight: 800, lineHeight: 1, letterSpacing: "-0.025em", whiteSpace: "nowrap", color: "var(--accent)",textTransform: "uppercase" }}>
           لبنى العمودي 
           </p>
         </div>
      
 
-          <motion.p initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:0.6}}}  className="text-dark-muted mx-auto mt-2" style={{ maxWidth: "640px", fontSize: "1.05rem", lineHeight: 1.7, animationDelay: "180ms" }}>
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:0.8}}}  className="text-dark-muted mx-auto mt-2" style={{ maxWidth: "640px", fontSize: "1.05rem", lineHeight: 1.7, animationDelay: "180ms" }}>
             مطورة واجهات ويب , بكالوريوس تقنية معلومات، مهتمة في تطوير المواقع و ببناء صفحات هبوط وتجارب رقمية .
           </motion.p>
 
@@ -39,11 +39,11 @@ export default function Hero() {
            
             <div className="d-flex flex-wrap justify-content-center align-items-center gap-3">
               <a href="#work" className="btn-gradient-pill d-inline-flex align-items-center gap-2" style={{ padding: "0.85rem 1.6rem", fontSize: "1rem" }}>
-                استعرض أعمالي <FiArrowUpLeft />
+                 أعمالي <FiArrowUpLeft />
               </a>
-              <a href="#contact" onClick={openCV} className="btn-outline-pill d-inline-flex align-items-center gap-2" style={{ padding: "0.85rem 1.6rem", fontSize: "1rem" }}>
+              {/* <a href="#contact" onClick={openCV} className="btn-outline-pill d-inline-flex align-items-center gap-2" style={{ padding: "0.85rem 1.6rem", fontSize: "1rem" }}>
                  سيرتي الذاتية
-              </a>
+              </a> */}
             </div>
 
             <div className="d-flex justify-content-center align-items-center gap-3 mt-2">
