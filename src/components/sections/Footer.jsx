@@ -28,9 +28,9 @@ export default function Footer() {
           </Col>
           <Col md={4} className="d-flex gap-2 justify-content-md-end">
           <motion.div initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:2}}}>
-          <a href="https://github.com/lubnaO?tab=repositories" aria-label="Github" className="btn-icon-square icon-hover-pop"><FaGithub size={18} /></a>
-            <a href="https://x.com/Lubna_977" aria-label="X" className="btn-icon-square icon-hover-pop"><FaXTwitter size={18} /></a>
-            <a href="https://www.linkedin.com/in/lubna-alamoudi-3562191a0/?skipRedirect=true" aria-label="LinkedIn" className="btn-icon-square icon-hover-pop"><FaLinkedin size={18} /></a>
+          <a href="https://github.com/lubnaO?tab=repositories" aria-label="Github" className="btn-icon-square icon-hover-pop m-2"><FaGithub size={18} /></a>
+            <a href="https://x.com/Lubna_977" aria-label="X" className="btn-icon-square icon-hover-pop m-2"><FaXTwitter size={18} /></a>
+            <a href="https://www.linkedin.com/in/lubna-alamoudi-3562191a0/?skipRedirect=true" aria-label="LinkedIn" className="btn-icon-square icon-hover-pop m-2"><FaLinkedin size={18} /></a>
           </motion.div>
           </Col>
         </Row>
