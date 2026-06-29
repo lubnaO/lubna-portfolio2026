@@ -138,33 +138,43 @@ export default function Contact() {
           <Col sm={12} md={4}>
             <motion.div  initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, scale: 1, transition: { duration: 2 } }} className="mt-5 h-100 rounded-4  bg-card p-5 flex items-center justify-center">
-              <div className="flex flex-col justify-center max-w-85">
-                <div className="flex items-center justify-center">
-                  <span className=" text-dark">lubnao115@gmail.com</span>
-                  <span className="border p-3 m-2 rounded-full border-ink animate-dark-gradient text-white b shadow-[0_0_0_10px rgb(35 30 87 / 70%)]">
-                    <MdOutlineAlternateEmail size={18} />
+           
+           
+              <div className="flex flex-col justify-center ">
+              
+              
+                 <div className="flex items-center">
+                  <span className="w-[170px] text-dark">lubnao115@gmail.com</span>
+                  <span className=" p-3 m-2  order-1 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                    <MdOutlineAlternateEmail size={18} style={{ color: "var(--primary)" }} />
                   </span>
                 </div>
 
-                <div className="flex items-center justify-center">
-                  <span className=" text-dark">Jeddah -  Saudi Arabia </span>
-                  <span className="border p-3 m-2 rounded-full border-ink animate-dark-gradient text-white  shadow-[0_0_0_10px rgb(35 30 87 / 70%)]">
-                    <CiLocationOn size={18} />
+                <div className="flex items-center">
+                  <span className="w-[170px] text-dark">Jeddah -  Saudi Arabia </span>
+                  <span className=" p-3 m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                    <CiLocationOn size={18} style={{ color: "var(--primary)" }} />
                   </span>
                 </div>
+
+
 
                 <div className="flex items-center justify-center mt-5">
-                  <a href="https://github.com/lubnaO?tab=repositories" aria-label="Github" className="m-2 border-1 shadow border-blue-950 text-black p-3 rounded-full hover:bg-blue-950 hover:text-white">
-                    <FaGithub size={18} />
+                  <a href="https://github.com/lubnaO?tab=repositories" aria-label="Github" className="m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                    <FaGithub size={18} style={{ color: "var(--primary)" }}/>
                   </a>
-                  <a href="https://x.com/Lubna_977" aria-label="X" className="m-2 border-1 shadow border-blue-950 text-black p-3 rounded-full hover:bg-blue-950 hover:text-white">
-                    <FaXTwitter size={18} />
+                  <a href="https://x.com/Lubna_977" aria-label="X" className="m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                    <FaXTwitter size={18} style={{ color: "var(--primary)" }}/>
                   </a>
-                  <a href="https://www.linkedin.com/in/lubna-alamoudi-3562191a0/?skipRedirect=true" aria-label="LinkedIn" className="m-2 border-1 shadow border-blue-950 text-black p-3 rounded-full hover:bg-blue-950 hover:text-white">
-                    <FaLinkedin size={18} />
+                  <a href="https://www.linkedin.com/in/lubna-alamoudi-3562191a0/?skipRedirect=true" aria-label="LinkedIn" className="m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                    <FaLinkedin size={18}style={{ color: "var(--primary)" }} />
                   </a>
                 </div>
+
+
               </div>
+
+
             </motion.div>
           </Col>
         </Row>
