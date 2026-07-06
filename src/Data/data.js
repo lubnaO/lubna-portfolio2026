@@ -52,8 +52,19 @@ export const otherSkills = [
 ];
 
 export let projects = [
-  {
+    {
     id: 1,
+    projectName: "موقع شركة تصميم الداخلي",
+    images: "https://i.postimg.cc/SRw5bNT3/interior.jpg",
+    description: "موقع لشركة تصميم داخلي , نصمم مساحات هادئة بجودة تنفيذ عالية وحديثة",
+    livePreview: "https://lubnao.github.io/Interior-Design/",
+    sourceCode: "https://github.com/lubnaO/Interior-Design",
+    pos: "center",
+     title:"تصميم داخلي",
+      language: ["React Js", "Tailwind", "Framer Motion", "JS"]
+  },
+  {
+    id: 2,
     projectName: "متجر بيوتي",
     images: "https://i.postimg.cc/VLxWzZF4/Screenshot-2026-06-15-000908.jpg",
     description: "موقع لمتجر إلكتروني لـ مستحضرات التجميل يحتوي على مكياج وعناية بالبشرة وعطور بجودة عالية.",
@@ -64,7 +75,7 @@ export let projects = [
     language: ["React", "Bootstrap", "API", "AOS"]
   },
   {
-    id: 2,
+    id: 3,
     projectName: "تطبيق الطقس",
     images: "https://i.postimg.cc/X7tP436c/weatherapp.jpg",
     description: "موقع إلكتروني يُستخدم للتحقق من درجة حرارة بلدك عن طريق كتابة اسم البلد في خانة البحث.",
@@ -75,7 +86,7 @@ export let projects = [
       language: ["API", "Html", "CSS", "Javascript"]
   },
   {
-    id: 3,
+    id: 4,
     projectName: " متجر قهوة",
     images: "https://i.postimg.cc/L8nm0mBt/Bon-Coffee.jpg",
     description: "موقع إلكتروني لمقهى يحتوي على تفاصيل ومعلومات عن المقهى والمنتجات والعروض وغيرها من المعلومات حول بون كوفي.",
@@ -87,7 +98,7 @@ export let projects = [
 
   },
   {
-    id: 4,
+    id: 5,
     projectName: "موقع لشركة أعمال",
     images: "https://i.postimg.cc/Y2YGbzqr/applanding.jpg",
     description: " صفحة موقع تجاري تحتوي على جميع المعلومات المتعلقة بالشركة وخدماتها",
@@ -97,19 +108,19 @@ export let projects = [
     title:"أعمال",
     language: ["Html", "CSS", "Javascript"]
   },
+  // {
+  //   id: 6,
+  //   projectName: "مشروع قائمة المهام",
+  //   images: "https://i.postimg.cc/c4TJb9qS/ToDo.jpg",
+  //   description: "موقع بسيط لإدارة قائمة المهام التي تحتاج إلى إنجازها أو الأشياء التي تريد القيام بها.",
+  //   livePreview: "https://lubnao.github.io/ToDoList-Project/",
+  //   sourceCode: "https://github.com/lubnaO/ToDoList-Project",
+  //    pos: "center 42%",
+  //    title:"مهام" ,
+  //    language: ["Html", "CSS", "Javascript"]
+  // },
   {
-    id: 5,
-    projectName: "مشروع قائمة المهام",
-    images: "https://i.postimg.cc/c4TJb9qS/ToDo.jpg",
-    description: "موقع بسيط لإدارة قائمة المهام التي تحتاج إلى إنجازها أو الأشياء التي تريد القيام بها.",
-    livePreview: "https://lubnao.github.io/ToDoList-Project/",
-    sourceCode: "https://github.com/lubnaO/ToDoList-Project",
-     pos: "center 42%",
-     title:"مهام" ,
-     language: ["Html", "CSS", "Javascript"]
-  },
-  {
-    id: 6,
+    id: 7,
     projectName: "متجر تسوق",
     images: "https://i.postimg.cc/6p4LsF0B/ecommerce-(1).png",
     description: "موقع إلكتروني للتسوق عبر الإنترنت.",
