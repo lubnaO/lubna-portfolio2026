@@ -1,3 +1,13 @@
+ملف أعمالي يحتوى على احدث أعمالي باستخدام اطار عمل React Js + tailwind 
+-Hero Section - الصفحة الرئيسية
+-Skills SEction - المهارات
+-Portfolio - الاعمال
+-Contact - تواصل معي 
+ -By using email js sevrer to recevice email from the customers.
+
+
+ <img width="1920" height="7045" alt="lubna-portfolio2026" src="https://github.com/user-attachments/assets/0174f07e-2e2c-465f-9e65-6415932bb3ca" />
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
