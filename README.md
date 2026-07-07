@@ -1,8 +1,8 @@
 ملف أعمالي يحتوى على احدث أعمالي باستخدام اطار عمل React Js + tailwind 
--Hero Section - الصفحة الرئيسية
--Skills SEction - المهارات
--Portfolio - الاعمال
--Contact - تواصل معي 
+- Hero Section - الصفحة الرئيسية
+- Skills SEction - المهارات
+- Portfolio - الاعمال
+- Contact - تواصل معي 
  -By using email js sevrer to recevice email from the customers.
 
 
