@@ -66,7 +66,7 @@ export let projects = [
     {
     id: 2,
     projectName: "شركة نمو",
-    images: "https://i.postimg.cc/1Rdfcd2t/Business.jpg",
+    images: "https://i.postimg.cc/X7s48sr7/namohero.jpg",
     description: "موقع لمتجر إلكتروني لـ مستحضرات التجميل يحتوي على مكياج وعناية بالبشرة وعطور بجودة عالية.",
     livePreview: "https://namo-website.netlify.app/",
     sourceCode: "https://github.com/lubnaO/BusinessPage",
@@ -74,8 +74,19 @@ export let projects = [
     title:"أعمال",
     language: ["React", "tailwind", "AOS"]
   },
-  {
+      {
     id: 3,
+    projectName: "صفحة هبوط لرؤية العقار",
+    images: "https://i.postimg.cc/V62bdY8N/hero.jpg",
+    description: "موقع لمتجر إلكتروني لـ مستحضرات التجميل يحتوي على مكياج وعناية بالبشرة وعطور بجودة عالية.",
+    livePreview: "https://roya-realestate.netlify.app/",
+    sourceCode: "https://github.com/lubnaO/Real-Estate",
+    pos: "center",
+    title:"رؤية العقار",
+    language: ["React", "tailwind", "Framer Motion"]
+  },
+  {
+    id: 4,
     projectName: "متجر بيوتي",
     images: "https://i.postimg.cc/VLxWzZF4/Screenshot-2026-06-15-000908.jpg",
     description: "موقع لمتجر إلكتروني لـ مستحضرات التجميل يحتوي على مكياج وعناية بالبشرة وعطور بجودة عالية.",
@@ -86,7 +97,7 @@ export let projects = [
     language: ["React", "Bootstrap", "API", "AOS"]
   },
   {
-    id: 4,
+    id: 5,
     projectName: "تطبيق الطقس",
     images: "https://i.postimg.cc/X7tP436c/weatherapp.jpg",
     description: "موقع إلكتروني يُستخدم للتحقق من درجة حرارة بلدك عن طريق كتابة اسم البلد في خانة البحث.",
@@ -97,7 +108,7 @@ export let projects = [
       language: ["API", "Html", "CSS", "Javascript"]
   },
   {
-    id: 5,
+    id: 6,
     projectName: " متجر قهوة",
     images: "https://i.postimg.cc/L8nm0mBt/Bon-Coffee.jpg",
     description: "موقع إلكتروني لمقهى يحتوي على تفاصيل ومعلومات عن المقهى والمنتجات والعروض وغيرها من المعلومات حول بون كوفي.",
@@ -109,7 +120,7 @@ export let projects = [
 
   },
   {
-    id: 6,
+    id: 7,
     projectName: "موقع لشركة أعمال",
     images: "https://i.postimg.cc/Y2YGbzqr/applanding.jpg",
     description: " صفحة موقع تجاري تحتوي على جميع المعلومات المتعلقة بالشركة وخدماتها",
@@ -120,7 +131,7 @@ export let projects = [
     language: ["Html", "CSS", "Javascript"]
   },
   // {
-  //   id: 7,
+  //   id: 8,
   //   projectName: "مشروع قائمة المهام",
   //   images: "https://i.postimg.cc/c4TJb9qS/ToDo.jpg",
   //   description: "موقع بسيط لإدارة قائمة المهام التي تحتاج إلى إنجازها أو الأشياء التي تريد القيام بها.",
@@ -130,16 +141,16 @@ export let projects = [
   //    title:"مهام" ,
   //    language: ["Html", "CSS", "Javascript"]
   // },
-  {
-    id: 8,
-    projectName: "متجر تسوق",
-    images: "https://i.postimg.cc/6p4LsF0B/ecommerce-(1).png",
-    description: "موقع إلكتروني للتسوق عبر الإنترنت.",
-    livePreview: "https://lubnao.github.io/EcommerceShopping/",
-    sourceCode: "https://github.com/lubnaO/EcommerceShopping",
-    pos: "center 80%",
-    title:"تسوق",
-         language: ["Html", "CSS", "Javascript"]
+  // {
+  //   id: 9,
+  //   projectName: "متجر تسوق",
+  //   images: "https://i.postimg.cc/6p4LsF0B/ecommerce-(1).png",
+  //   description: "موقع إلكتروني للتسوق عبر الإنترنت.",
+  //   livePreview: "https://lubnao.github.io/EcommerceShopping/",
+  //   sourceCode: "https://github.com/lubnaO/EcommerceShopping",
+  //   pos: "center 80%",
+  //   title:"تسوق",
+  //        language: ["Html", "CSS", "Javascript"]
 
-  }
+  // }
 ]

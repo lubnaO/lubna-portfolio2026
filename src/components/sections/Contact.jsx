@@ -25,9 +25,7 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm("service_ctr4x23", "template_9agi69l", form.current, {
+       emailjs.sendForm("service_ctr4x23", "template_9agi69l", form.current, {
         publicKey: "JMvwFafFwiRBYkr1U",
       })
       .then(
