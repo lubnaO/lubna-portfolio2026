@@ -67,7 +67,7 @@ export let projects = [
     id: 2,
     projectName: "شركة نمو",
     images: "https://i.postimg.cc/X7s48sr7/namohero.jpg",
-    description: "موقع لمتجر إلكتروني لـ مستحضرات التجميل يحتوي على مكياج وعناية بالبشرة وعطور بجودة عالية.",
+    description: "موقع تعريفي للشركة اعمال ويحتوي على اكثر من قسم في تعريف الشركة وعرض أعمالها.",
     livePreview: "https://namo-website.netlify.app/",
     sourceCode: "https://github.com/lubnaO/BusinessPage",
     pos: "center",
@@ -78,7 +78,7 @@ export let projects = [
     id: 3,
     projectName: "صفحة هبوط لرؤية العقار",
     images: "https://i.postimg.cc/V62bdY8N/hero.jpg",
-    description: "موقع لمتجر إلكتروني لـ مستحضرات التجميل يحتوي على مكياج وعناية بالبشرة وعطور بجودة عالية.",
+    description: "صفحة هبوط لشركة رؤية العقار مصصمة بتصميم بسيط لخدمة حجز الاستشارة او الحصول على العرض. واستلام بيانات العميل في ورقة شيت.",
     livePreview: "https://roya-realestate.netlify.app/",
     sourceCode: "https://github.com/lubnaO/Real-Estate",
     pos: "center",
@@ -119,17 +119,17 @@ export let projects = [
      language: ["Html", "CSS", "Javascript"]
 
   },
-  {
-    id: 7,
-    projectName: "موقع لشركة أعمال",
-    images: "https://i.postimg.cc/Y2YGbzqr/applanding.jpg",
-    description: " صفحة موقع تجاري تحتوي على جميع المعلومات المتعلقة بالشركة وخدماتها",
-    livePreview: "https://lubnao.github.io/AppLanding-page/",
-    sourceCode: "https://github.com/lubnaO/AppLanding-page",
-    pos: "center 38%",
-    title:"أعمال",
-    language: ["Html", "CSS", "Javascript"]
-  },
+  // {
+  //   id: 7,
+  //   projectName: "موقع لشركة أعمال",
+  //   images: "https://i.postimg.cc/Y2YGbzqr/applanding.jpg",
+  //   description: " صفحة موقع تجاري تحتوي على جميع المعلومات المتعلقة بالشركة وخدماتها",
+  //   livePreview: "https://lubnao.github.io/AppLanding-page/",
+  //   sourceCode: "https://github.com/lubnaO/AppLanding-page",
+  //   pos: "center 38%",
+  //   title:"أعمال",
+  //   language: ["Html", "CSS", "Javascript"]
+  // },
   // {
   //   id: 8,
   //   projectName: "مشروع قائمة المهام",
