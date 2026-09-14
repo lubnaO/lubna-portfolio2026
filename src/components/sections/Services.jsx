@@ -18,7 +18,7 @@ export default function Services() {
         >
           <div>
           <p className="fw-bold mb-2" style={{ color: "var(--accent)" }}>
-            خدمات
+            02 — خدمات
           </p>
           <h2
             id="services-title"
@@ -35,10 +35,10 @@ export default function Services() {
             const Icon = service.Icon;
 
             return (
-              <Col key={service.id} xs={12}>
+              <Col key={service.id} xs={12} md={4}>
                 <motion.article
                   initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+                  whileInView={{ opacity: 1, scale: 1, transition: { duration: 2 } }}
                   className="skills-panel h-100 text-center"
                 >
                   <span
@@ -52,7 +52,7 @@ export default function Services() {
                   >
                     <Icon size={32} aria-hidden="true" />
                   </span>
-                  <h3 className="skills-panel-title">{service.title}</h3>
+                  <h5 className="">{service.title}</h5>
                   <p className="mb-0" style={{ lineHeight: 1.8, overflowWrap: "anywhere" }}>
                     {service.description}
                   </p>

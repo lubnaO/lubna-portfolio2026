@@ -1,9 +1,9 @@
 import {
-  FiMonitor,
-  FiSmartphone,
+  // FiMonitor,
+  // FiSmartphone,
   FiLayout,
-  FiLink,
-  FiZap,
+  // FiLink,
+  // FiZap,
   FiCode,
   FiGrid,
   FiUser,
@@ -21,6 +21,8 @@ import {  FaReact,
   FaRocket,
 FaPiedPiper,
 } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+/*
 export const skills = [
 { title: "تطوير الواجهات", note: "تحويل التصميم إلى واجهات متجاوبة", Icon: FiMonitor, },
 { title: "التصميم المتجاوب", note: "تصميم يعمل على جميع الأجهزة", Icon: FiSmartphone, },
@@ -30,18 +32,22 @@ export const skills = [
 { title: "كود نظيف", note: "كتابة كود منظمة", Icon: FiCode, },
 { title: "إطار عمل React", note: "بناء واجهات تفاعلية باستخدام React", Icon: FaReact, },
 ];
+*/
 
 export const links = [
   ["الرئيسية", "#home"],
-  ["المهارات", "#skills"],
+  // ["المهارات", "#skills"],
+  ["الخدمات", "#services"],
   ["الأعمال", "#work"],
   ["تواصل", "#contact"],
+  
 ];
 
 export const webSkills = [
   { name: "React Js", Icon: FaReact },
   { name: "HTML", Icon: FaHtml5 },
   { name: "CSS", Icon: FaCss3Alt },
+  { name: "Tailwind CSS", Icon: SiTailwindcss },
   { name: "JavaScript", Icon: FaJs },
   { name: "Bootstrap", Icon: FaBootstrap },
   { name: "Material UI", Icon: FaTools }, 

@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import {skills, webSkills, otherSkills} from '../../Data/data'
+import {webSkills, otherSkills} from '../../Data/data'
 import { useState, useEffect } from "react";
 import { SkillsCard } from "../SkillsCard";
 import { motion } from "motion/react";
@@ -9,7 +9,7 @@ export default function Skills() {
       <Container>
           <motion.div initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:1}}} className="d-flex align-items-end justify-content-between mb-5">
           <div>
-            <p className="fw-bold mb-2" style={{ color: "var(--accent)" }}>02 — تقنيات</p>
+            <p className="fw-bold mb-2" style={{ color: "var(--accent)" }}>04 — تقنيات</p>
             <h2 className="fw-bolder" style={{ fontSize: "clamp(2.8rem, 6vw, 3rem)" }}>المهارات التقنية</h2>
           </div>
           {/* <span className="text-dark-muted small">06 مشاريع مختارة</span> */}
