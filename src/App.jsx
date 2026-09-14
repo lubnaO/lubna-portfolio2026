@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.rtl.min.css";
 import Navbar from './components/sections/Navbar'
 import Hero from './components/sections/Hero'
 import Skills from './components/sections/Skills'
+import Services from './components/sections/Services'
 import Portfolio from './components/sections/Portfolio'
 import Contact from './components/sections/Contact'
 import Footer from './components/sections/Footer'
@@ -13,7 +14,8 @@ function App() {
   <>
       <Navbar />
       <Hero />
-      <Skills />
+      {/* <Skills /> */}
+      <Services />
       <Portfolio />
       <Contact />
       <Footer />

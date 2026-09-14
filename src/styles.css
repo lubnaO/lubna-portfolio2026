@@ -389,9 +389,15 @@
 .skills-panel {
   border-radius: 1.25rem;
   border: 1px solid color-mix(in oklch, var(--primary) 25%, transparent);
-  background: color-mix(in oklch, var(--primary) 5%, '#ffffff');
+  background: #ffffff;
   padding: 2.25rem 1.5rem;
   /* box-shadow: 0 10px 30px color-mix(in oklch, var(--primary) 10%, transparent); */
+  transition: transform .25s ease, border-color .25s ease, background-color .25s ease;
+}
+.skills-panel:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  background: color-mix(in oklch, var(--primary) 10%, var(--surface));
 }
 .skills-panel-title {
   text-align: center;

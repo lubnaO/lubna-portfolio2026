@@ -5,6 +5,9 @@ import {
   FiLink,
   FiZap,
   FiCode,
+  FiGrid,
+  FiUser,
+  FiSettings,
 } from "react-icons/fi";
 import {  FaReact,
   FaHtml5,
@@ -15,6 +18,7 @@ import {  FaReact,
   FaCode,
   FaTools,
   FaPaperPlane,
+  FaRocket,
 FaPiedPiper,
 } from "react-icons/fa";
 export const skills = [
@@ -50,7 +54,44 @@ export const otherSkills = [
   { name: "VS Code", Icon: FaCode }, 
   { name: "Postman", Icon: FaPaperPlane }, 
 ];
-
+export const Services = [
+  {
+    "id": 1,
+    "title": "تطوير واجهات المواقع",
+    "description": "تطوير واجهات ويب حديثة ومتجاوبة مع جميع أحجام الشاشات باستخدام React و Tailwind CSS.",
+    Icon: FiCode
+  },
+  {
+    "id": 2,
+    "title": "تحويل التصميم إلى موقع",
+    "description": "تحويل تصاميم Figma أو الصور والنماذج الجاهزة إلى صفحات ويب تفاعلية ومتجاوبة.",
+    Icon: FiLayout
+  },
+  {
+    "id": 3,
+    "title": "تطوير صفحات الهبوط",
+    "description": "إنشاء صفحات هبوط لعرض الخدمات أو المنتجات والحملات بشكل واضح ومتجاوب.",
+    Icon: FaRocket
+  },
+  {
+    "id": 4,
+    "title": "تطوير مواقع مع لوحة تحكم",
+    "description": "تطوير مواقع بسيطة تحتوي على لوحة تحكم لإدارة البيانات والطلبات أو الحجوزات، مثل مواقع حجز المواعيد والخدمات.",
+    Icon: FiGrid
+  },
+  {
+    "id": 5,
+    "title": "نظام تسجيل الدخول والصلاحيات",
+    "description": "إضافة تسجيل الدخول وإنشاء الحسابات وإدارة صلاحيات المستخدمين والأدمن.",
+    Icon: FiUser
+  },
+  {
+    "id": 6,
+    "title": "تعديل وتطوير المواقع",
+    "description": "تعديل المواقع الحالية وإضافة أقسام أو صفحات وخصائص جديدة حسب احتياج المشروع.",
+    Icon: FiSettings
+  }
+]
 export let projects = [
     {
     id: 1,

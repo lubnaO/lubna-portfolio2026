@@ -143,14 +143,14 @@ export default function Contact() {
               
                  <div className="flex items-center">
                   <span className="w-[170px] text-dark">lubnao115@gmail.com</span>
-                  <span className=" p-3 m-2  order-1 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                  <span className=" p-3 m-2  order-1 border-1   text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
                     <MdOutlineAlternateEmail size={18} style={{ color: "var(--primary)" }} />
                   </span>
                 </div>
 
                 <div className="flex items-center">
                   <span className="w-[170px] text-dark">Jeddah -  Saudi Arabia </span>
-                  <span className=" p-3 m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                  <span className=" p-3 m-2 border-1   text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
                     <CiLocationOn size={18} style={{ color: "var(--primary)" }} />
                   </span>
                 </div>
@@ -158,13 +158,13 @@ export default function Contact() {
 
 
                 <div className="flex items-center justify-center mt-5">
-                  <a href="https://github.com/lubnaO?tab=repositories" aria-label="Github" className="m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                  <a href="https://github.com/lubnaO?tab=repositories" aria-label="Github" className="m-2 border-1   text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
                     <FaGithub size={18} style={{ color: "var(--primary)" }}/>
                   </a>
-                  <a href="https://x.com/Lubna_977" aria-label="X" className="m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                  <a href="https://x.com/Lubna_977" aria-label="X" className="m-2 border-1   text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
                     <FaXTwitter size={18} style={{ color: "var(--primary)" }}/>
                   </a>
-                  <a href="https://www.linkedin.com/in/lubna-alamoudi-3562191a0/?skipRedirect=true" aria-label="LinkedIn" className="m-2 border-1  border-blue-900 text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
+                  <a href="https://www.linkedin.com/in/lubna-alamoudi-3562191a0/?skipRedirect=true" aria-label="LinkedIn" className="m-2 border-1   text-black p-3 rounded-xl hover:bg-blue-950 hover:text-white">
                     <FaLinkedin size={18}style={{ color: "var(--primary)" }} />
                   </a>
                 </div>
