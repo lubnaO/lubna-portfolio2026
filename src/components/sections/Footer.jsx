@@ -13,7 +13,7 @@ export default function Footer() {
             <p className="mb-1 fw-bolder" style={{ fontFamily: "var(--font-display)", fontSize: "2rem" }}>
               لبنى<span style={{ color: "var(--accent)" }}>.</span>
             </p>
-            <p className="text-dark-muted small mb-0">أصمم. أطوّر. أطلق.</p>
+            <p className="text-dark-muted small mb-0"> أطوّر. أطلق.</p>
           </motion.div>
           </Col>
           <Col md={4}>

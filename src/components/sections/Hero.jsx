@@ -8,7 +8,7 @@ import CardBanner from "./CardBanner";
 import { motion } from "motion/react";
 
 export default function Hero() {
-  let Name = " مطورة واجهات "
+  let Name = "مبرمجة مواقع"
   let amoudi = "لبنى العمودي"
   let openCV = () =>{
     window.open(CV)
@@ -62,7 +62,7 @@ export default function Hero() {
      
 
           <motion.p initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:0.8}}}  className="text-dark-muted mx-auto mt-2" style={{ maxWidth: "640px", fontSize: "1.05rem", lineHeight: 1.7, animationDelay: "180ms" }}>
-            مطورة واجهات ويب , بكالوريوس تقنية معلومات، مهتمة في تطوير المواقع و ببناء صفحات هبوط واساعد الشركات الصغيرة والمتوسطة واصحاب الاعمال في تطوير مواقع الالكترونية حسب طلبكم.
+            مبرمجة واجهات ومواقع ويب , بكالوريوس تقنية معلومات، مهتمة في تطوير المواقع و ببناء صفحات هبوط واساعد الشركات الصغيرة والمتوسطة واصحاب الاعمال في تطوير مواقع الالكترونية حسب طلبكم.
           </motion.p>
 
           <motion.div initial={{opacity:0}} whileInView={{opacity:1,scale:1,transition:{duration:0.7}}} className="d-flex flex-column align-items-center gap-3 mt-4" style={{ animationDelay: "300ms" }}>
